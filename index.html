@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 포트폴리오 모음집 랜딩페이지 코딩 구현</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <style>
+        * {font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;  margin: 0; padding: 0; box-sizing: border-box; list-style: none; color : inherit; text-decoration: none;}
+        img {vertical-align: top;}
+        html {scroll-behavior: smooth;}
+        .con {height: 100vh; color: #5a7cdb; }
+        header {background: #19191c; padding: 20px 30px; color: #5a7cdb; display: flex; align-items: center; justify-content: space-between; position: fixed; top: 60px; width: 90%; z-index: 10; left: 50%; transform: translateX(-50%);}
+        header nav ul {display: flex;}
+        header nav ul li {margin-left: 50px; font-weight: bold;}
+        #INTRO {position: relative; overflow: hidden;}
+        #INTRO video {position: absolute; z-index: -1; top: 0; left: 0; }
+        #INTRO h2 {font-size: 80px; }
+        #WORK {background: url(img/히어로섹션-배경---복사본.png) center/cover; background-attachment: fixed;}
+        #ABOUT {background: url(img/히어로섹션-배경---복사본.png) center/cover; background-attachment: fixed;}
+        #EMAIL {background: url(img/히어로섹션-배경---복사본.png) center/cover; background-attachment: fixed;}
+    </style>
+
+</head>
+<body>
+
+
+
+    <div class="wrap">
+
+        <header>
+            <h3>LEE JIHYE</h3>
+            <h3>PORTFOLIO</h3>
+
+            <nav>
+                <li><a href="#INTRO">INTRO</a></li>
+                <li><a href="#WORK">WORK</a></li>
+                <li><a href="#ABOUT">ABOUT</a></li>
+                <li><a href="#EMAIL">EMAIL</a></li>
+            </nav>
+                
+
+        </header>
+
+        <div id="INTRO" class="con">
+            <h2>INTRO</h2>
+            <video autoplay muted loop>
+                <source src="img/포트폴리오 모음 히어로섹션 고화질 원본.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div id="WORK" class="con">
+            <h2>WORK</h2>
+        </div>
+
+        <div id="ABOUT" class="con">
+            <h2>ABOUT</h2>
+        </div>
+
+        <div id="EMAIL" class="con">
+            <h2>EMAIL</h2>
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+</body>
+</html>
